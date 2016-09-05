@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bg3"
+    android:weightSum="1"
+    android:showDividers="middle">
+
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="40dp"
+        android:id="@+id/textView2"
+        android:textColor="#fff0f4f5"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="New Offers Available"
+        android:background="#c6258dcd"
+        android:padding="5dp"
+        android:layout_weight="0.51"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Exciting deals around you. "
+        android:id="@+id/textView"
+        android:textColor="#fff0f4f5"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:textColor="#fff0f4f5"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/grab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#c6258dcd"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="GRAB NOW"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
